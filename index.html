@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>NEM paper wallet </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<h1>NEM </h1>
+							<span ><img height="100px" length="100px" src="images/nemlogo.png" alt="" /></span>
+							<p>Paper wallet generator for NEM cryptocurrency</p>
+						</header>
+						<p>Source code is available <a href="https://github.com/aenima86/paper-wallet-gen" target="_blank">>here<</a></p>
+						<p>We recommend to use this tool offline</p>
+						<p>Reload to generate new unique keys</p>
+						<p>All donations are very much appreciated</p>
+
+						<hr />
+						<h2>Private key</h2>
+						<p id="privatekey"></p>
+						
+
+
+						<h2>Public key</h2>
+						<p id="publickey"></p>
+						<h2>Public address</h2>
+						<p id="publicaddress"> </p>
+						<hr />
+			
+						<footer>
+							<ul class="icons">
+								<li>Private key<div id="qrprivatekey" style="width:200px; height:200px; margin:15px"></div></li>
+							</ul>
+
+							<ul class="icons">
+								<li>Public key<div id="qrpublickey" style="width:200px; height:200px; margin:15px"></div></li>
+								<li>Public address<div id="qrpublicaddress" style="width:200px; height:200px; margin:15px"></div></li>
+							</ul>
+							<ul class="icons">
+								<li>Donations<div id="qrdonations" style="width:200px; height:200px; margin:15px"></div></li>
+							</ul>
+							<p>NBSTZ5FIQHZ2LOICL3X2NAEP53OIQS6LZOUXIAR4</p>
+						</footer>
+					</section>
+
+			
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="qrcode.js"></script>
+	<script src="nem-sdk.js"></script>
+	<script src="script.js"></script>
+</html>
