@@ -8,5 +8,5 @@ The script will generate a private key, a public key and a public address.
 
 
 All donations are very much appreciated.
-NEM Address: NCKOYFQAPR5AKD66X7MCMBGT7JJNTMUN53V4YESF
+NEM Address: NBSTZ5FIQHZ2LOICL3X2NAEP53OIQS6LZOUXIAR4
 
