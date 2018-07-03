@@ -25,6 +25,8 @@
 
 	body {
 		line-height: 1;
+		overflow: none;
+		width: 100vw;
 	}
 
 	ol, ul {
@@ -705,7 +707,7 @@
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 0em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
@@ -855,3 +857,19 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+/* Header */
+	.header-container {
+		color: #fff;
+		background: #E10098;
+		text-align: center;
+		cursor: pointer;
+		display: block;
+		width: 110%;
+		margin-top: -1.5em;
+		margin-bottom: 1.5em;
+	}
+
+	.header-container:hover {
+		color: #fff !important;
+	}

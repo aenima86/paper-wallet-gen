@@ -8,13 +8,25 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+/* Header */
+.header-container {
+	color: #fff;
+	background: #E10098;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	width: 110%;
+	margin-top: -1.5em;
+	margin-bottom: 1.5em;
+}
+
 /* Main */
 
 	#main {
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		@include padding(4.5em, 3em);
+		@include padding(0em, 3em, 4.5em, 3em);
 
 		background: _palette(bg);
 		border-radius: _size(border-radius);

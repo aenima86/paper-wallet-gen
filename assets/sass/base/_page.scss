@@ -36,6 +36,8 @@
 
 	body {
 		height: 100%;
+		overflow: none;
+		width: 100vw;
 		background-color: _palette(bg);
 		@include vendor('background-image', (
 			'url("images/overlay.png")',
