@@ -10,6 +10,6 @@ The script will generate a private key, a public key and a public address.
 All donations are very much appreciated.
 NEM Address: NBSTZ5FIQHZ2LOICL3X2NAEP53OIQS6LZOUXIAR4
 
-##sponsor
+## sponsor
 Check out our sponsor [cblocks.io](https//cblocks.io) - Personalized cryptocurrencies delivered to your door.
 
