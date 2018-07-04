@@ -11,5 +11,5 @@ All donations are very much appreciated.
 NEM Address: NBSTZ5FIQHZ2LOICL3X2NAEP53OIQS6LZOUXIAR4
 
 ## sponsor
-Check out our sponsor [cblocks.io](https//cblocks.io) - Personalized cryptocurrencies delivered to your door.
+Check out our sponsor [cblocks.io](https://www.cblocks.io) - Personalized cryptocurrencies delivered to your door.
 
