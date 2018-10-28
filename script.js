@@ -38,13 +38,13 @@ var qrcodeDonations = new QRCode(document.getElementById("qrdonations"), {
 });
 
 
-$('#privatekey').html(privateKey);
+$('#privatekey').html('<b>'+privateKey+'</b>');
 qrcodePrivatekey.makeCode(privateKey);
 
-$('#publickey').html(publicKey);
+$('#publickey').html('<b>'+publicKey+'</b>');
 qrcodePublickey.makeCode(publicKey);
 
-$('#publicaddress').html(address);
+$('#publicaddress').html('<b>'+address+'</b>');
 qrcodePublicAdd.makeCode(address);
 
 
